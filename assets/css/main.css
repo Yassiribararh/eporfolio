@@ -60,6 +60,26 @@ mark {
 	color: inherit;
 }
 
+.tab {
+	padding: 5px;
+	height: 100px;
+	text-align: center;
+	cursor: pointer;
+	border: solid;
+	width: 100%; /* Make the tab span the full width */
+	transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.tab:hover {
+	background-color: #0056b3; /* Darker shade on hover */
+}
+
+.dropdown-content {
+	display: none; /* Hidden by default */
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
